@@ -11,8 +11,3 @@ let doubleArr = usersArr.map(user => {
 	return user;
 });
 
-
-let d = [];
-for(const [key, value] of Object.entries(users)){
-	d.push(`${key} ${value *2}`); // ["user1 36546", "user2 185666", "user3 180630"]
-}
